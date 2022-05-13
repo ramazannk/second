@@ -1,0 +1,43 @@
+.title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    &__fz16{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &__fz48{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 55px;
+        color: #000000;
+    }
+    &__fz36{
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 60px;
+        color: #000000;
+    }
+    &__fz14{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }
+    &__thin{
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }
+    &__fz20{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+}

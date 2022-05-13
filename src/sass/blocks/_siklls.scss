@@ -1,0 +1,39 @@
+.siklls{
+    &__title{
+        text-align: center;
+        position: relative;
+        @include before-circle;
+        &:before{
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__subtitle{
+        text-align: center;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template: repeat(2, 270px) / repeat(4, 270px);
+        grid-auto-rows: 270px;
+        margin-top: 60px;
+        gap: 13px;
+    }
+    &__item{
+        border: 1px solid black;
+        padding: 30px 40px 25px 40px;
+    }
+    &__descr{
+        width: 211px;
+        height: 94px;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+    }
+    &__tema{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    &__mon{
+        margin-top: 41px;
+    }
+}

@@ -1,0 +1,44 @@
+.rating{
+    padding: 120px 0  120px 0;
+    &__wrapper{
+        display: grid;
+        grid-template: repeat(2, 70px) / repeat(3, 350px);
+        grid-auto-rows: 70px;
+        column-gap: 46px;
+        row-gap: 30px;    
+    }
+    &__item{
+        display: grid;
+        grid-template: minmax(21px, auto) 14px / 200px 35px;
+        justify-content: space-between;
+        align-content: space-between;
+        padding-top: 8px;
+        padding-left: 12px;
+    }
+    &__title{
+        position: relative;
+        @include before-circle;
+        &:before{
+            left: -12px;
+        }
+    }
+    &__counter{
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }
+    &__line{
+        width: 350px;
+        height: 14px;
+        margin-top: 20px;
+        background: #E8E4DE;
+        border-radius: 4px;
+        span{
+            display: block;
+            height: 100%;
+            background-color: #FFA501;;
+            border-radius: 4px;
+        }
+    }
+    
+}

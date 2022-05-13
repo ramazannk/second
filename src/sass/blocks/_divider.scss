@@ -1,0 +1,13 @@
+.divider{
+    width: 60px;
+    height: 3px;
+    margin: 25px auto 0 auto;
+    background-color: #FFA501;
+    &__short{
+        margin: 0;
+    }
+    &__price{
+        margin-top: 31px;
+    }
+    
+}

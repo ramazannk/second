@@ -1,0 +1,36 @@
+.promo{
+    min-height: 100vh;
+    position: relative;
+    background: url('../img/main_bg.jpg') no-repeat 50%/cover;
+    padding-top: 205px;
+    &__btn{
+        width: 250px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__subtitle{
+        position: relative;
+        padding-left: 10px;
+        color: #F5F5DC;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        @include before-circle;
+        z-index: 2;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 55px;
+        color: #F5F5DC;
+    }
+    &__link{
+        margin-top: 12px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        color: #F5F5DC;
+    }
+}  

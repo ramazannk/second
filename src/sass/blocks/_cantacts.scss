@@ -1,0 +1,98 @@
+.contacts{
+    padding-top: 120px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: minmax(400px , auto) 1fr;
+        column-gap: 68px;
+    }
+    &__social{
+        margin-top: 20px;
+
+    }
+    &__link{
+        margin-right: 25px;
+        
+        img{
+            max-width: 20px;
+            max-height: 20px;
+        }
+    }
+    &__text{
+        margin-top: 20px;
+    }
+    &__form{
+        margin-top: 20px;
+        display: grid;
+        grid-template: 45px 190px 45px / repeat(2, 280px);
+        justify-content: space-between;
+        row-gap: 24px;
+        label{
+            position: absolute;
+            display: block;
+            height: 18px;
+            font-size: 12px;
+            top: -8px;
+            left: 12px;
+            padding: 0 8px;
+            background-color: #fff;
+            margin-bottom: 0;
+
+        }
+    }
+    &__input{
+        position: relative;
+        input{
+            width: 100%;
+            height: 100%;
+            padding: 0 20px;
+            font-size: 12px;
+        }
+        
+    }
+    &__triger{
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        column-gap: 35px;
+
+    }
+    &__policy{
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        line-height: 14px;
+        input{
+            margin-right: 10px;
+        }
+    }
+    &__textarea{
+        position: relative;
+        grid-column: 1/4;
+        textarea{
+            width: 100%;
+            height: 100%;
+            resize: none;
+            padding: 20px;
+            font-size: 12px;
+        }
+    }
+    #name-error{
+        position: absolute;
+        top: -21px;
+        left: 85px;
+        color: red;     
+    }
+    #email-error{
+        position: absolute;
+        top: -37px;
+        left: 85px;  
+        color: red;   
+    }
+    #checkbox-error{
+        position: absolute;
+        top: -16px;  
+        color: red; 
+    }
+}
